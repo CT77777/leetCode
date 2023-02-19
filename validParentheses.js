@@ -19,5 +19,6 @@ var isValid = function (s) {
       }
     }
   }
-  return true;
+  //single element situation
+  return storage.length === 0;
 };
